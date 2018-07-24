@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <EditText
+        android:id="@+id/current"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="20dp"
+        android:ems="10"
+        android:hint="@string/Текущие"
+        android:inputType="numberDecimal"
+        android:digits="0123456789" />
+
+    <EditText
+        android:id="@+id/last"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/current"
+        android:layout_marginTop="11dp"
+        android:ems="10"
+        android:hint="@string/Предыдущие"
+        android:inputType="numberDecimal"
+        android:digits="0123456789" />
+
+    <Button
+        android:id="@+id/Calculate"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/last"
+        android:layout_marginEnd="16dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="16dp"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="33dp"
+        android:onClick="Calculate"
+        android:text="@string/Calc" />
+
+    <TextView
+        android:id="@+id/result"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/Calculate"
+        android:layout_marginTop="35dp"
+        android:text="@string/result"
+        android:textColor="@android:color/black"
+        android:textSize="28sp"
+        android:visibility="visible" />
+
+    <Button
+        android:id="@+id/save"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/Calculate"
+        android:layout_alignBottom="@+id/Calculate"
+        android:layout_alignParentEnd="false"
+        android:layout_alignParentRight="true"
+        android:layout_marginEnd="20dp"
+        android:layout_marginRight="20dp"
+        android:onClick="Save"
+        android:text="@string/save"
+        tools:text="Сохранить показания" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/result"
+        android:layout_marginTop="29dp"
+        android:text="@string/textview" />
+
+    <Button
+        android:id="@+id/Save"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/Calculate"
+        android:layout_alignStart="@+id/Calculate"
+        android:layout_below="@+id/Calculate"
+        android:onClick="savefile"
+        android:text="@string/savetofile"/>
+
+    <EditText
+        android:id="@+id/editTextFirst"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/textView2"
+        android:layout_marginTop="30dp"
+        android:gravity="top|left"
+        android:inputType="textMultiLine" />
+
+
+</RelativeLayout>

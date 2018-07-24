@@ -1,0 +1,30 @@
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="app_name">Счетчик электроэнергии</string>
+    <string name="textview">TextView</string>
+    <string name="name">Name</string>
+    <string name="Текущие">Введите текущие показания счетчика</string>
+    <string name="Предыдущие">Введите предыдущие показания счетчика</string>
+    <string name="Calc">Рассчет</string>
+    <string name="единый">Единый тариф</string>
+    <string name="def">Единый тариф</string>
+    <string name="result">К оплате:</string>
+    <string name="history">История</string>
+    <string name="save">Сохранить показания</string>
+    <string name="title_activity_first2">first2</string>
+    <string name="this_is_activity_two">This is Activity Two</string>
+    <string name="button">Восстановить</string>
+    <string name="Save">SaveToFile</string>
+    <string name="textview2">TextView2</string>
+    <string name="Clear">Clear</string>
+    <string name="savetofile">SaveToFile</string>
+    <string name="readfromfile">ReadFromFile</string>
+    <string name="name2">Name</string>
+    <string name="ID">ID</string>
+    <string name="email">Email</string>
+    <string name="readID">readID</string>
+    <string name="readName">readName</string>
+    <string name="readEmail">readEmail</string>
+    <string name="textview3">TextView</string>
+
+
+</resources>
