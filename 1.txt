@@ -1,0 +1,16 @@
+Your identification has been saved in /c/Users/Sarkisian/.ssh/id_rsa.
+Your public key has been saved in /c/Users/Sarkisian/.ssh/id_rsa.pub.
+The key fingerprint is:
+SHA256:RlpH2eJEXhhOcr7v4xsUczkWmKrSNgCz3APXU3nZnbk a.sarkisian94@gmail.com
+The key's randomart image is:
++---[RSA 4096]----+
+|       ..oB*.=..o|
+|    + . oO*.* .=.|
+|   . B  o+=+o = .|
+|    o ++ .o. = E |
+|      .+S.. .    |
+|      ..=  o     |
+|       o .  o    |
+|           ...   |
+|           .+o   |
++----[SHA256]-----+
